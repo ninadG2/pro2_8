@@ -101,11 +101,7 @@ function mouseDragged()
  {
    mangoBodyPosition = lMango.body.position
    stoneBodyPosition = lStone.body.position
-   
-   lStone = stone1;
-   lMango = mango1;
 
-   
 
    var distance = dist(stoneBodyPosition.x, stoneBodyPosition.y, mangoBodyPosition.x, mangoBodyPosition.y)
    //console.log("dist" + distance);
